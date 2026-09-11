@@ -1,0 +1,10 @@
+# Phase B - Image Compression R&D prototype dependencies.
+# Isolated from the production requirements.txt on purpose - this venv (.venv)
+# is scoped to experiments/ only and is never imported by app.py/main.py/gui.
+#
+# Verified installing cleanly against Python 3.14.5 on 2026-08-13.
+
+Pillow==12.3.0
+zstandard==0.25.0
+brotli==1.2.0
+numpy==2.5.2   # used only by corpus_synthetic.py for fast test-image generation

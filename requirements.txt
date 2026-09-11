@@ -1,0 +1,7 @@
+# Runtime
+Send2Trash==2.1.0
+PySide6==6.11.1
+
+# Testing (automated GUI + regression suite)
+pytest==9.1.1
+pytest-qt==4.5.0
